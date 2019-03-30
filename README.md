@@ -17,6 +17,7 @@ account id "revolut00004" with balance 2000
 To check accounts details
 ---
 http://localhost:8080/account/revolut00001
+ 
 http://localhost:8080/account/id2/revolut00002
 
 
