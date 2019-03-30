@@ -56,7 +56,7 @@ public class BankApplicationTest extends AbstractSparkTest {
 	@Test
     void shouldHandleMissingAccountsDetails() throws Exception {
 		
-		HttpGet request = new HttpGet(SERVER_URL + "/account/Invalid_Account");
+		HttpGet request = new HttpGet(SERVER_URL + "/account/Invalid_Account/details");
 		
 		CloseableHttpResponse response = client.execute(request);
 

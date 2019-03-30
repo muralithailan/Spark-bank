@@ -49,7 +49,7 @@ public class BankApplication {
 
 		port(PORT);
 
-		get("/account/:id", (request, response) -> {
+		get("/account/:id/details", (request, response) -> {
 			response.type("application/json");
 			String id = request.params(":id");
 			try {
