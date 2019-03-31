@@ -8,9 +8,12 @@ How to start the bank application
 
 Application is initialized with four accounts
 ---
-account id "revolut00001" with balance 200
-account id "revolut00002" with balance 100
-account id "revolut00003" with balance 1000
+account id "revolut00001" with balance 200 
+
+account id "revolut00002" with balance 100 
+
+account id "revolut00003" with balance 1000 
+
 account id "revolut00004" with balance 2000
 
 
