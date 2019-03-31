@@ -8,6 +8,12 @@ import com.revolut.bank.exception.AccountNotFoundException;
 import com.revolut.bank.exception.InvalidMoneyTransferException;
 import com.revolut.bank.repository.AccountRepository;
 
+/**
+ * This class act as a layer to access Account objects
+ * 
+ * @author Bala
+ *
+ */
 public class AccountService {
 
 	private AccountRepository accountRepository;

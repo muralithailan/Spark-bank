@@ -25,7 +25,11 @@ import com.revolut.bank.repository.AccountRepository;
 import com.revolut.bank.repository.InMemoryAccountRepository;
 import com.revolut.bank.service.AccountService;
 import com.revolut.bank.utils.JsonUtils;
-
+/**
+ * This class is the entry point to bank application
+ * @author Bala
+ *
+ */
 public class BankApplication {
 
 	private final Logger logger = LoggerFactory.getLogger(BankApplication.class);

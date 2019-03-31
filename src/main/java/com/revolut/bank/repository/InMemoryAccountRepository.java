@@ -8,7 +8,11 @@ import java.util.concurrent.ConcurrentHashMap;
 import org.apache.commons.lang3.Validate;
 
 import com.revolut.bank.domain.Account;
-
+/**
+ * In-memory data store implementation using hashmap
+ * @author Bala
+ *
+ */
 public class InMemoryAccountRepository implements AccountRepository {
 
 	private final Map<String, Account> accountsStorage = new ConcurrentHashMap<>();

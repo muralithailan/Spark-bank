@@ -3,7 +3,7 @@ package com.revolut.bank.dto;
 public enum StatusResponse {
 	SUCCESS("Success"),ERROR("Error");
 	
-	final private String status;
+	private final String status;
 	
 	StatusResponse(String status){
 		this.status = status;
